@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif, monospace;
+    text-align: center;
+    background-color: orchid;
+}
+
+.tracker-container {
+    max-width: 700px;
+    height: 500px;
+    margin: 150px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: calc(100% - 24px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: olivedrab;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
